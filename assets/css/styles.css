@@ -1,2 +1,56 @@
 
 /* css */
+body{
+  color:black;
+  background: linear-gradient(90deg, #d3d3d3 30%, #a9a9a9 100%);
+  font-family:sans-serif;
+}
+h1{
+  font-family:cursive;
+  font-style:italic;
+  font-size:50px;
+  text-align:left;
+  color: purple;
+}
+}
+h2{
+  font size:25px;
+}
+ul ol{
+  color:green;
+}
+.background-answer{
+  display:none;
+}
+.background:hover .background-answer{
+  display:block;
+}
+.change-title-answer{
+  display:none;
+}
+.change-title:hover .change-title-answer{
+  display:block;
+}
+.mobile-answer{
+  display:none;
+}
+.mobile:hover .mobile-answer{
+  display:block;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.left {
+  left: 0;
+  margin-left:10px;
+}
+.right {
+  right: 0;
+  margin-right: 10px;
+}
